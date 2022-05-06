@@ -26,7 +26,7 @@
 	<dependencies>
 
 		<!-- ================= -->
-		<!-- Springboot -->
+		<!-- Springboot        -->
 		<!-- ================= -->
 
 		<dependency>
@@ -40,6 +40,28 @@
 			<scope>provided</scope>
 		</dependency>
 
+
+		<!-- ================= -->
+		<!-- lombok            -->
+		<!-- ================= -->
+		
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+
+		<!-- ================= -->
+		<!-- OpenAPI           -->
+		<!-- ================= -->
+
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.8</version>
+		</dependency>
+		
 	</dependencies>
 
 
